@@ -1,0 +1,173 @@
+body{
+    background-image: linear-gradient(to right top, #992c87, #5a3277, #262b58, #0c1c30, #000102);
+    /* background-image: linear-gradient(to right top, #89167a, #6b1253, #4b1233, #2a0f1b, #000000); */
+    padding: 0;
+    margin: 0;
+    padding-top: 25px; 
+    background-size: cover; 
+}
+
+.searchbtn{
+    margin: auto;
+    width: 400px;
+}
+
+.mainsection{
+    display: flex;
+    margin: 50px;
+    height: 100%;
+    padding: 30px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.MainCard{
+    height: 450px;
+    /* border: 2px solid white; */
+}
+
+.subCard{
+    border: 2px solid white;
+    height: 400px;
+    margin: 5px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    
+    /* border: 2px solid green; */
+
+}
+
+.Text1{
+    /* border: 2px solid white; */
+    height: 200px;
+    width: 291px;
+    background-image: linear-gradient(to right top, #89167a, #6b1253, #4b1233, #2a0f1b, #000000);
+    
+}
+
+
+.banner-image{
+    height:200px;
+    background:url("https://media.istockphoto.com/photos/silhouette-of-woman-with-microphone-singing-on-concert-stage-in-front-picture-id1160645050?k=20&m=1160645050&s=612x612&w=0&h=7S3bMHxLuFX0dawyL-XnP75ZqMg7OCM0lTLfu_gL1RY=");
+    background-size:cover;
+    background-position:center;
+    width: 290px;
+   
+}
+
+
+.banner-dance-image{
+    height:200px;
+    background:url("https://www.dancewavescompetition.com/media/images/20170808072349_home_banner_01.jpg");
+    background-size:cover;
+    background-position:center;
+    width: 290px;
+       
+}
+
+
+.banner-cook-image{
+    height:200px;
+    background:url("https://medilodgeoftawascity.com/wp-content/uploads/sites/84/2019/01/cook-out-event-banner.jpg");
+    background-size:cover;
+    background-position:center;
+    width: 290px;
+    
+}
+
+.banner-game-image{
+    height:200px;
+    background:url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/07/07/983677-battlegrounds.jpg");
+    background-size:cover;
+    background-position:center;
+    width: 290px;
+       
+}
+
+.banner-code-image{
+    height:200px;
+    background:url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/coding-event-motion-poster-design-template-3e758bfdc9036d7fe1412ff47f4030ff.jpg?ts=1567082163");
+    background-size:cover;
+    background-position:center;
+    width: 290px;
+       
+}
+
+.banner-Draw-image{
+    height:200px;
+    background:url("https://tickikids.ams3.cdn.digitaloceanspaces.com/z4.cache/gallery/activities/2987/image_5ae18e8e81c740.31664168.jpg");
+    background-size:cover;
+    background-position:center;
+    width: 290px;
+}
+
+
+.Text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+.Event-name{
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (min-width:600px) {
+
+    .MainCard{
+        height: 350px;
+        /* border: 2px solid white; */
+    }
+
+    .subCard{
+        width: 438px;
+        height: 223px;
+        flex-direction: row;
+        margin-top: 27px;
+        
+    } 
+
+    .Text1{
+        height: 220px;
+        
+    }
+    .banner-image{
+        height: 220px;
+        
+    }
+
+    .banner-dance-image{
+        height: 220px;
+      
+    }
+
+    .banner-cook-image{
+        height: 220px;
+        
+    }
+    .banner-game-image{
+        height: 220px;
+        
+    }
+    .banner-code-image{
+        height: 220px;
+        
+    }
+
+    .banner-Draw-image{
+        height: 220px;
+        
+    }
+
+    .mainsection{
+        flex-direction: row;
+        
+    }
+}
